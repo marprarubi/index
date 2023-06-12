@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image:url(http://2.bp.blogspot.com/_fxnzMejdO1M/TUlqOljofEI/AAAAAAAAEFU/C7pR2iIpamk/s1600/Casa-para-gatos-3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:rgba(255, 255, 255, 0.4);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(74, 109, 84, 0.4);
+  position:sticky;
+  top:0%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #adcebf;
+  color: rgb(0, 0, 0);
+
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  
+  padding-left: 20px;
+}
+
+/* Fake image */
+.imagen {
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .fakeimg {   
+    width: 100%;
+    padding: 0;
+    
+  }
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:rgba(255, 255, 255, 0.4);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+    
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.entrada {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  font-family:serif
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 class="titulo">GATOS</h1>
+  <p>La mejor guia para cuidar de tu gato</p>
+</div>
+
+<div class="topnav">
+  <a href="#domesticos">GATOS DOMESTICOS</a>
+  <a href="#consejos">CONSEJOS GATOS</a>
+  <a href="#contacto">CONTACTANOS</a>
+  <a href="https://es.wikipedia.org/wiki/Historia_del_gato" style="float:right">WIKIPEDIA</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div id="domesticos" class="card">
+      <h2>GATOS DOMESTICOS</h2>
+      <h5 class="entrada">La hitoria y la evolución de los gatos domesticos, May 29, 2023</h5>
+      <img  style="height:200px;" src="http://2.bp.blogspot.com/-uGAqHSwQ0KY/UrIZwe_VJpI/AAAAAAAAlmk/8qqf4dTi_M0/s1600/gato.jpg" height="200px">
+      <p>Antes de saber cuidar a nuestros gatos debemos aber de donde salen y su evolucion a lo largo de los años</p>
+      <p>Los gatos comenzaron como cazadores salvajes que se acercaron a las comunidades humanas en busca de comida.<br> Los humanos notaron su habilidad para cazar roedores y los aceptaron en sus hogares. A lo largo del tiempo, los gatos se convirtieron en animales de compañía y se desarrollaron diferentes razas.<Br> Se expandieron por todo el mundo y ahora son una de las mascotas más populares. Esta evolución muestra cómo una relación basada en la utilidad se convirtió en una conexión emocional entre humanos y gatos, y hoy en día los gatos son amados por su compañía y personalidad especial.</p>
+    </div>
+    <div id="consejos" class="card">
+      <h2>CONSEJOS GATOS</h2>
+      <h5 class="entrada">Consejos de como cuidar y mimar a tu gato, Jun 1, 2023</h5>
+      <img  src="https://tse4.mm.bing.net/th?id=OIP.y_rWP9VOoYN-ofBadXrQtQHaEK&pid=Api&P=0&h=180">
+      
+      <p><strong>Alimentación adecuada:</strong><br> Proporciona una dieta balanceada y de alta calidad, adecuada para la etapa de vida de tu gato. Asegúrate de darle agua fresca y evita alimentos tóxicos.<BR>
+
+        <strong>Importancia del juego:</strong><br> Dedica tiempo diario para jugar con tu gato, utilizando juguetes interactivos que estimulen su instinto de caza. Proporciona lugares altos para trepar y explorar.<br>
+        
+        <strong>Control de porciones y peso:</strong><br> Controla las porciones de comida para evitar el sobrepeso y consulta con tu veterinario sobre la cantidad adecuada de alimento. Limita los premios y golosinas.<br>
+        
+        <strong>Enriquecimiento ambiental:</strong><br> Proporciona juguetes y rascadores para mantener a tu gato entretenido en casa. Crea áreas de juego estimulantes y seguras.<br>
+        
+        <strong>Recuerda adaptar estos consejos a las necesidades individuales de tu gato y consultar a un veterinario para obtener orientación específica</strong></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Tienda Recomendada</h2>
+      <a title="zooplus" href="https://www.zooplus.es/shop/tienda_gatos?mkt_source=252964&msclkid=343b3c4325f211208fa558c40cc8feec"><img src="https://cdn-prod.shphdrp.ext.aws.zooplus.io/3.12.1/images/zooplus/logo/zooplus@2x.png" width="150"></a>
+      <p>Tienda especializada en articulos de animales pero sobre todo articulos relacionados con los gatos</p>
+    </div>
+    <div class="card">
+      <h3>Razas Favoritas</h3>
+      <a href="https://www.expertoanimal.com/razas-de-gatos/siames.html"><img class="imagen" title="Siamés"src="https://t1.ea.ltmcdn.com/es/razas/9/7/1/siames_179_0_300_square.webp" alt="gato tumbado" width="165"></a>
+      <a href="https://www.expertoanimal.com/razas-de-gatos/gato-chantilly-tiffany.html"></a><img class="imagen" title="Chantilly" src="https://t2.ea.ltmcdn.com/es/razas/2/3/8/gato-chantilly-tiffany_832_0_300_square.webp" alt="gato de pie" width="165"></a>
+      <a href="https://www.expertoanimal.com/razas-de-gatos/gato-angora-turco.html"></a><img class="imagen" title="Angora Turco"src="https://t1.ea.ltmcdn.com/es/razas/3/8/1/gato-angora-turco_183_0_300_square.webp" alt="gato tumbado" width="165"></a>
+    </div>
+   
+  </div>
+</div>
+
+<div id="contacto" class="footer">
+  <h2>CONTACTANOS PARA CUALQUIER PREGUNTA</h2>
+
+  <a title="instagram" href="https://www.instagram.com/"><img src="https://www.aesthetx.com/wp-content/uploads/2021/01/1200px-Instagram_logo_2016.svg-1-min-640x640.png" width="50"></a>
+
+  <a title="facebook" href="https://www.facebook.com/"><img src="https://clipart-library.com/images/LTd54rpac.png" width="50"></a>
+
+  <a title="linkedin" href="https://es.linkedin.com/"><img src="https://cdn2.hubspot.net/hubfs/521324/App-Icon-1200x1200-linkedin-2.png" width="50"></a>
+
+  
+</div>
+
+</body>
+</html>
+
+
